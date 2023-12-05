@@ -34,10 +34,25 @@ const Button = styled.button`
   cursor: pointer;
   border-radius: 5px;
   border: none;
-  background-color: #2c73d2;
+  border-color: black;
+  background-color: green;
   color: white;
   height: 42px;
+  transition: 3s;
+
+  &:hover{
+    background-color:white;
+    color: green;
+    border-radius: 5px;
+    border-color: black;
+
+  }
+  
+
 `;
+
+
+
 
 const Form = ({ getUsers, onEdit, setOnEdit }) => {
   const ref = useRef();
@@ -117,7 +132,7 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
         <Input name="data_nascimento" type="date" />
       </InputArea>
 
-      <Button type="submit">SALVAR</Button>
+      <Button type="teste">SALVAR</Button>
     </FormContainer>
   );
 };

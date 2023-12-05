@@ -15,6 +15,8 @@ const Global = createGlobalStyle`
     justify-content: center;
     background-color: #f2f2f2;
   }
+
+  
 `;
 
 export default Global;
