@@ -12,11 +12,13 @@ const FormContainer = styled.form`
   padding: 20px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
+  
 `;
 
 const InputArea = styled.div`
   display: flex;
   flex-direction: column;
+  
 `;
 
 const Input = styled.input`
@@ -25,9 +27,12 @@ const Input = styled.input`
   border: 1px solid #bbb;
   border-radius: 5px;
   height: 40px;
+  background-color: #E6E6FA;
 `;
 
-const Label = styled.label``;
+const Label = styled.label`
+  
+`;
 
 const Button = styled.button`
   padding: 10px;
